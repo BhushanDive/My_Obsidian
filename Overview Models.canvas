@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"type":"text","text":"## DATA PREPROCESSING\n\nCreating Mel Frequency cepstral coefficients\nCreating the dataset form MFCC's","id":"fdd75a075b0ed11f","x":-1758,"y":-500,"width":380,"height":220,"color":"5"},
+		{"type":"text","text":"## DATA PREPROCESSING\n\nCreating Spectrograms\nspecially MelSpectrograms","id":"53e165c094fde7d5","x":-1203,"y":-500,"width":380,"height":220,"color":"5"},
+		{"type":"text","text":"## DATA","id":"518e709941291d41","x":-1638,"y":-800,"width":140,"height":80,"color":"6"},
+		{"type":"text","text":"## TRAINING ALGORITHM\n\nApplying Data to CNN\nHyperParameter tuning.","id":"599190540f5c14fa","x":-1760,"y":-200,"width":385,"height":279,"color":"4"},
+		{"type":"text","text":"## PREDICTION","id":"58c403cfb02957d8","x":-1697,"y":160,"width":260,"height":79,"color":"3"},
+		{"type":"text","text":"## TRAINING ALGORITHM\n\nApplying Data to CNN\nHyperParameter tuning.","id":"fbb0f3db31ab7ac6","x":-1205,"y":-200,"width":385,"height":279,"color":"4"},
+		{"type":"text","text":"## PREDICTION","id":"ebef0e37a62d2891","x":-1142,"y":160,"width":260,"height":79,"color":"3"},
+		{"type":"text","text":"## TRAINING ALGORITHM","id":"936b7d1f2342f233","x":1080,"y":-260,"width":385,"height":79,"color":"4"},
+		{"type":"text","text":"## DATA PREPROCESSING","id":"b4a4a1a3bb125322","x":1082,"y":-419,"width":380,"height":80,"color":"5"},
+		{"type":"text","text":"## PREDICTION","id":"8b93dd20c9f029b1","x":1142,"y":-120,"width":260,"height":79,"color":"3"},
+		{"type":"text","text":"## DATASET","id":"47d78f4980653f18","x":1172,"y":-560,"width":200,"height":80,"color":"6"},
+		{"type":"text","text":"## TRAINING ALGORITHM\n\nUsing a combination of Shallow algorithms and Deep learning algorithms to find out best performing algorithm. ie Ensemble method.","id":"9c1858b4cc5e6004","x":-2320,"y":-200,"width":385,"height":279,"color":"4"},
+		{"type":"text","text":"## DATA PREPROCESSING\n\nCreating Mel Frequency cepstral coefficients\nCreating the dataset form MFCC's","id":"33d8b84b8bfafafd","x":-2318,"y":-500,"width":380,"height":220,"color":"5"},
+		{"type":"text","text":"## PREDICTION","id":"a8601972252487a0","x":-2258,"y":160,"width":260,"height":79,"color":"3"}
+	],
+	"edges":[
+		{"id":"72a3e3e9b334bba3","fromNode":"936b7d1f2342f233","fromSide":"bottom","toNode":"8b93dd20c9f029b1","toSide":"top"},
+		{"id":"6e237d4e6025c217","fromNode":"b4a4a1a3bb125322","fromSide":"bottom","toNode":"936b7d1f2342f233","toSide":"top"},
+		{"id":"461f135a54ea92ea","fromNode":"47d78f4980653f18","fromSide":"bottom","toNode":"b4a4a1a3bb125322","toSide":"top"},
+		{"id":"cf5a3c547b26c5f6","fromNode":"518e709941291d41","fromSide":"bottom","toNode":"53e165c094fde7d5","toSide":"top"},
+		{"id":"c45cf967ad8cc1ed","fromNode":"fbb0f3db31ab7ac6","fromSide":"bottom","toNode":"ebef0e37a62d2891","toSide":"top"},
+		{"id":"91ecf0b758e30006","fromNode":"fdd75a075b0ed11f","fromSide":"bottom","toNode":"599190540f5c14fa","toSide":"top"},
+		{"id":"748b1c633b10640b","fromNode":"599190540f5c14fa","fromSide":"bottom","toNode":"58c403cfb02957d8","toSide":"top"},
+		{"id":"17102b14a347c67e","fromNode":"518e709941291d41","fromSide":"bottom","toNode":"fdd75a075b0ed11f","toSide":"top"},
+		{"id":"ca6d957ffbde6254","fromNode":"53e165c094fde7d5","fromSide":"bottom","toNode":"fbb0f3db31ab7ac6","toSide":"top"},
+		{"id":"275f2022e00bf8e3","fromNode":"33d8b84b8bfafafd","fromSide":"bottom","toNode":"9c1858b4cc5e6004","toSide":"top"},
+		{"id":"58ed84c6a42655a4","fromNode":"9c1858b4cc5e6004","fromSide":"bottom","toNode":"a8601972252487a0","toSide":"top"},
+		{"id":"65cbee43beb1915d","fromNode":"518e709941291d41","fromSide":"bottom","toNode":"33d8b84b8bfafafd","toSide":"top"}
+	]
+}
